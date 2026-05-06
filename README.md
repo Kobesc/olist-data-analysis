@@ -16,7 +16,8 @@ Brazil's geography creates severe logistics variance between states. This analys
 
 **Central Question:** *How much does delivery speed actually drive long-term retention and customer satisfaction — and where in Brazil the problem is the worst?*
 
-![][image1]
+<img width="1060" height="580" alt="Shipping_vs_Review" src="https://github.com/user-attachments/assets/bae99d34-7481-4f9b-b11b-398e91b4cfb6" />
+
 
 ## **PROJECT STRUCTURE**
 
