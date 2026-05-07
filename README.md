@@ -6,7 +6,7 @@
 
 ## **EXECUTIVE SUMMARY**
 
-Using Python and SQL, this project analyzes an e-commerce dataset from Olist (a real Brazilian e-commerce store) to figure out the root causes of their critically low customer retention. The analysis uncovered a direct, measurable chain reaction: poor delivery speed reduces customer satisfaction, which in its turn reduces retention. [**Run Analysis in Google Colab**](https://colab.research.google.com/drive/1W8hxRROX-H9_uujkAH9vx1BhffOzvMqH?usp=sharing)
+Using Python and SQL, this project analyzes an e-commerce dataset from Olist (a real Brazilian e-commerce store) to figure out the root causes of their critically low customer retention. The analysis uncovered a direct, measurable chain reaction: poor delivery speed reduces customer satisfaction, which in its turn reduces retention. [**Run Analysis in Google Colab**](https://colab.research.google.com/drive/1z0Pf9b7Ym4XkWYCudFrAYbZPpKiVyTAf?usp=sharing)
 
 ## **BUSINESS PROBLEM**
 
