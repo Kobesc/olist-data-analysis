@@ -19,6 +19,7 @@ Brazil's geography creates severe logistics variance between states. This analys
 <img width="1060" height="580" alt="Shipping_vs_Review" src="https://github.com/user-attachments/assets/bae99d34-7481-4f9b-b11b-398e91b4cfb6" />
 
 
+
 ## **PROJECT STRUCTURE**
 
 | \# | Section | Tool | Description |
@@ -31,9 +32,20 @@ Brazil's geography creates severe logistics variance between states. This analys
 | 6 | State-Level Analysis | Python | AOV, CLV, and retention aggregated by state |
 | 7 | Bridge Analysis | Python \+ SQL | Merge SQL and Python findings to uncover the full chain |
 
+**📁 REPOSITORY STRUCTURE**
+> ```text
+> ├── data/               # Raw dataset (CSV files)
+> ├── notebooks/          # Python notebook with analysis
+> ├── visuals/            # High resolution charts
+> ├── .gitattributes      # Configuration for Git LFS
+> └── README.md           # Project documentation and Summary
+> ```
+
+
 ## **HOW TO RUN**
 
 Open in [**Google colaboratory**](https://colab.research.google.com/drive/1dsiWA43LYo_r6DDt45g-jzog3SbmpOPT?usp=sharing) and click **Run All**, no setup required.
+
 
 ## **METHODOLOGY**
 
@@ -44,6 +56,7 @@ Open in [**Google colaboratory**](https://colab.research.google.com/drive/1dsiWA
 * **Cohort & Retention Modeling (Python):** Used pandas to build monthly user cohorts and track customer repeat purchase rates and lifetime value across all 27 Brazilian states.
 
 * **Data Visualization (Python):** Designed heatmaps, scatter plots, and choropleth map to visually showcase the link between slow logistics and customer churn.
+
 
 ## **SKILLS & TOOLS USED**
 
@@ -60,6 +73,7 @@ Open in [**Google colaboratory**](https://colab.research.google.com/drive/1dsiWA
     * *Matplotlib*: Dual-axis charts, multi-panel scatter plots    
     * *Seaborn:* Cohort retention heatmaps   
     * *Geopandas:* Choropleth map of Brazil by delivery metric
+
 
 ## **KEY FINDINGS**
 
@@ -96,6 +110,7 @@ Northern and remote states suffer from **23+ day shipping** and overdue rates ap
 
 <img width="1510" height="1397" alt="mappng" src="https://github.com/user-attachments/assets/c0a8f52a-a0ab-4c4a-9778-26841b6d6829" />
 
+
 ## **ACTIONS TO TAKE**
 
 ### **Invest in Shipping:**
@@ -111,6 +126,7 @@ Refine delivery estimation models by implementing more conservative shipping win
 ### **Automated Churn Minimization:**
 
 Deploy an automated churn prevention system that triggers proactive communication for orders exceeding 15 days in transit. Sending a proactive apology and a discount code *before* the customer leaves a 1-star review can increase the Customer Lifetime Value.
+
 
 ## **NEXT STEPS & LIMITATIONS**
 
